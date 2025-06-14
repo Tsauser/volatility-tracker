@@ -1,0 +1,4 @@
+yFinance
+pandas
+twilio
+python-dotenv
