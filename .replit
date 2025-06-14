@@ -1,0 +1,16 @@
+modules = ["python-3.12"]
+
+[nix]
+channel = "stable-24_05"
+packages = ["glibcLocales"]
+
+[workflows]
+
+[[workflows.workflow]]
+name = "Run script"
+mode = "sequential"
+author = 43848364
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "python volatility-tracker.py"
