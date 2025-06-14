@@ -5,6 +5,7 @@ channel = "stable-24_05"
 packages = ["glibcLocales"]
 
 [workflows]
+runButton = "Run script"
 
 [[workflows.workflow]]
 name = "Run script"
